@@ -1,12 +1,12 @@
 import requests
 
-response = requests.post('http://127.0.0.1:5000/register/', json={'email': 'snt@mail.ru',
-                                                                 'password': '52412-JfMdKzx'})
+# response = requests.post('http://127.0.0.1:5000/register/', json={'email': 'snt@mail.ru',
+#                                                                  'password': '52412-JfMdKzx'})
 
 # response = requests.post('http://127.0.0.1:5000/login/', json={'email': 'snt@mail.ru',
 #                                                               'password': '52412-JfMdKzx'})
 
-# response = requests.get('http://127.0.0.1:5000/users/1/')
+response = requests.get('http://127.0.0.1:5000/users/1/')
 
 # response = requests.post('http://127.0.0.1:5000/send/', json={'header': 'computer',
 #                                                               'description': 'good'},

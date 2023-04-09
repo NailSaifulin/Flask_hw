@@ -1,2 +1,0 @@
-isort app
-black app
